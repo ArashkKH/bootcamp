@@ -21,7 +21,7 @@ function fibonacci(numbers){
    }
    return fibo.slice(0, numbers)
 }
-// test
+
 }
 
 module.exports = fibonacci;
