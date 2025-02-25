@@ -25,7 +25,6 @@ describe("Todo List", () => {
 		expect(showTasks()).not.toContain("Buy groceries");
 	});
 
-	
 
 	it("should show all tasks correctly", () => {
 		addTask("Buy groceries");

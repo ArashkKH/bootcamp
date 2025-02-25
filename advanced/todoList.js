@@ -21,13 +21,12 @@ function addTask(task) {
 }
 
 function removeTask(task) {
-	const index = tasks.indexOf(task);
-	if (index > -1) {
-		tasks.splice(index, 1);
-	}
-
-    // if you dont want to use clean Before running tests use this in removeTask function!
-    // tasks = tasks.filter(t => t !== task);
+	// const index = tasks.indexOf(task);
+	// if (index > -1) {
+	// 	tasks.splice(index, 1);
+	// }
+	// if you dont want to use clean Before running tests use this in removeTask function!
+	tasks = tasks.filter(t => t !== task);
 }
 
 function showTasks() {
